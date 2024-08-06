@@ -1,0 +1,6 @@
+/csvs/
+/mysqld.cnf
+/taxi_data.db
+/your_database.db
+/identifier.sqlite
+/docker-compose.yml
