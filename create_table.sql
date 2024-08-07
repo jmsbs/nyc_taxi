@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS staging (
     RateCodeID INT,
     store_and_fwd_flag CHAR(1), # 'Y' or 'N' for store and forward flag in case the trip record was held in vehicle memory before sending to the vendor.
     payment_type INT,
+    payment_type_text VARCHAR(255),
     PULocationID INT,
     DOLocationID INT,
     fare_amount DECIMAL(10, 2),
